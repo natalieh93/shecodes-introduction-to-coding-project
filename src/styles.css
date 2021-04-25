@@ -31,7 +31,7 @@ hr {
   background: white;
   height: 3px;
   display: block;
-  width: 69%;
+  width: 60%;
 }
 
 img {
@@ -93,11 +93,6 @@ h4 {
   max-width: 44%;
   padding: 35px 25px 9px;
   text-align: center;
-}
-
-.information {
-  width: 46%;
-  height: 2px;
 }
 
 ul {
@@ -171,4 +166,56 @@ button:hover {
   color: white;
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  img {
+    border-radius: 70px;
+    display: block;
+    max-width: 80%;
+  }
+
+  .shelter-info {
+    font-size: 16px;
+    max-width: 80%;
+  }
+
+  h3 {
+    max-width: 60%;
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 16px;
+    max-width: 80%;
+  }
+
+  ul {
+    font-size: 16px;
+    max-width: 80%;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
 }
